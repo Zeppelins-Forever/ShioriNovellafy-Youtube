@@ -1,0 +1,9 @@
+Prepare the manifests: Be sure to rename the extension and give it a proper version number in the manifest.json and manifest v3.json files.
+
+Pack extensions: Create a .zip containing icons, images, manifest.json and mrbeasify.js. This is your Firefox add-on. Then create a .zip with the same contents, but instead of using the original manifest.json, rename the V3 version to manifest.json and pack that instead of the original. This is your Chrome extension.
+
+Upload your extension to the Firefox store: Go to the Firefox developer hub, click submit new add-on, then upload the .zip meant for Firefox. Make sure to fill out any information that is relevant, like required permissions etc. Publish your extension. This process can take hours to a day.
+
+Upload your extension to the Chrome store: Go to the Chrome add-on store, click the gear in the top right, click Developer Dashboard. From there I don't know the exact instructions. Beware that Google requires a 5 dollar payment from a credit card in order to upload extensions. Upload the .zip meant for Chrome, make sure to fill out any information that is relevant, like required permissions etc. Publish your extension. This process can take several days.
+
+  Sourced from https://github.com/MagicJinn/MrBeastify-Youtube/issues/16, archived here in case of eventual deletion.
