@@ -10,7 +10,7 @@
         "96": "icons/icon-96.png",
         "128": "icons/icon-128.png"
     },
-    "description": "Modify YouTube thumbnails to include the Hololive VTuber Shiori Novella",
+    "description": "Modify YouTube thumbnails to be Shiori Novella from Hololive EN",
     "permissions": [
         "https://www.youtube.com/*"
     ],
@@ -20,7 +20,6 @@
         "run_at": "document_idle"
     }],
     "web_accessible_resources": [
-        "images/*.png",
-        "images/*.json"
+        "images/*.png"
     ]
 }
